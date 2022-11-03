@@ -42,4 +42,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/${{ github.repository }}:1.0
+          tags: ghcr.io/mbryde/cicd:1.0
