@@ -1,12 +1,5 @@
 name: Build and publish a nodejs container image
 
-    "on":
-        push:
-            tags:
-                - "*"
-            branches:
-                - "main"
-
   jobs:
     build-and-publish-image:
       runs-on: ubuntu-latest
